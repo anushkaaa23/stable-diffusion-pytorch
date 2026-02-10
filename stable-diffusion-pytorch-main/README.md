@@ -79,7 +79,7 @@ input_images = [Image.open('space.jpg')]
 images = pipeline.generate(prompts, input_images=images, strength=0.6)
 ```
 
-Change [classifier-free guidance](https://arxiv.org/abs/2207.12598) scale:
+Change classifier-free guidance scale:
 ```py
 prompts = ["a photograph of an astronaut riding a horse"]
 images = pipeline.generate(prompts, cfg_scale=11)
