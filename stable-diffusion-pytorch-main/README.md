@@ -2,7 +2,7 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjsman/stable-diffusion-pytorch/blob/main/demo.ipynb)
 
-PyTorch implementation of [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release).
+PyTorch implementation of Stable Diffusion
 
 Features are pruned if not needed in Stable Diffusion (e.g. Attention mask at CLIP tokenizer/encoder). Configs are hard-coded (based on Stable Diffusion v1.x). Loops are unrolled when that shape makes more sense.
 
